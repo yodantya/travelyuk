@@ -57,7 +57,9 @@ php artisan serve
 ```
 
 8. **Jalankan Seeder Manual**
--  Jika data User dan Rute belum ada
+
+-   Jika data User dan Rute belum ada
+
 ```bash
 php artisan db:seed --class=AdminSeeder
 php artisan db:seed --class=RuteSeeder
@@ -65,10 +67,16 @@ php artisan db:seed --class=RuteSeeder
 
 -   Akses di browser: [http://localhost:8000](http://localhost:8000)
 
-## Struktur Folder Penting
+## Screenshot
 
--   `app/` → kode backend
--   `routes/` → file routing (`web.php` untuk web, `api.php` untuk API)
--   `resources/views/` → file Blade template
--   `database/migrations/` → file migrasi database
--   `database/seeders/` → file seeder data awal
+### Halaman Utama
+
+![Homepage](screenshot/halamanutama.png)
+
+### Halaman User
+
+![Homepage](screenshot/halamanuser.png)
+
+### Halaman Admin
+
+![Homepage](screenshot/halamanadmin.png)
