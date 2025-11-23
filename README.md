@@ -67,7 +67,3 @@ php artisan serve
 -   `resources/views/` → file Blade template
 -   `database/migrations/` → file migrasi database
 -   `database/seeders/` → file seeder data awal
-
-## Lisensi
-
-MIT License © [Nama Kamu]
