@@ -71,12 +71,12 @@ php artisan db:seed --class=RuteSeeder
 
 ### Halaman Utama
 
-![Homepage](screenshot/halamanutama.png)
+![Homepage](screenshot/halamanutama.PNG)
 
 ### Halaman User
 
-![Homepage](screenshot/halamanuser.png)
+![Homepage](screenshot/halamanuser.PNG)
 
 ### Halaman Admin
 
-![Homepage](screenshot/halamanadmin.png)
+![Homepage](screenshot/halamanadmin.PNG)
