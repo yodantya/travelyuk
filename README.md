@@ -13,8 +13,6 @@
 -   Composer
 -   MySQL / MariaDB
 
-> Catatan: Node.js & npm **tidak wajib** karena project menggunakan Laravel UI Bootstrap tanpa Vue/React.
-
 ## Cara Instalasi
 
 1. **Clone repository**
@@ -56,6 +54,13 @@ php artisan migrate --seed
 
 ```bash
 php artisan serve
+```
+
+8. **Jalankan Seeder Manual**
+-  Jika data User dan Rute belum ada
+```bash
+php artisan db:seed --class=AdminSeeder
+php artisan db:seed --class=RuteSeeder
 ```
 
 -   Akses di browser: [http://localhost:8000](http://localhost:8000)
