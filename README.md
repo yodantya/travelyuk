@@ -42,7 +42,7 @@ php artisan key:generate
 
 5. **Konfigurasi database di `.env`**
 
--   Sesuaikan `DB_DATABASE`, `DB_USERNAME`, dan `DB_PASSWORD` dengan database lokal kamu.
+-   Sesuaikan `DB_DATABASE`, `DB_USERNAME`, dan `DB_PASSWORD`.
 
 6. **Jalankan migrasi dan seeder**
 
